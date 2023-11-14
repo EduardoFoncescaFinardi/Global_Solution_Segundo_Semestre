@@ -1,6 +1,7 @@
-DESAFIO:
-# INOVAÇÃO E TECNOLOGIA MOLDANDO O FUTURO DA SAÚDE: *PREVENÇÃO, ATUMAÇÃO E PRECISÃO*
-# HAPVIDA NOTREDAME INTERMÉDICA
+# DESAFIO:
+INOVAÇÃO E TECNOLOGIA MOLDANDO O FUTURO DA SAÚDE: *PREVENÇÃO, AUTOMAÇÃO E PRECISÃO*
+Empresa: *HAPVIDA NOTREDAME INTERMÉDICA*
+
 - A inovação e a tecnologia desempenham papéis cruciais nessa revolução, prometendo transformar a forma como abordamos
   a saúde, a *prevenção de doenças, a automação de processos médicos e a precisão nos diagnósticos e tratamentos*
 
