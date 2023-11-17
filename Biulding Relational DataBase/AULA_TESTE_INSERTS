@@ -1,0 +1,147 @@
+INSERT INTO T_TD_IMAGENS (id_imagem, dt_envio, id_paciente) VALUES (id_imagem.nextval, '11112023', id_paciente);
+INSERT INTO T_TD_IMAGENS (id_imagem, dt_envio, id_paciente) VALUES (id_imagem.nextval, '12112023', id_paciente);
+INSERT INTO T_TD_IMAGENS (id_imagem, dt_envio, id_paciente) VALUES (id_imagem.nextval, '13112023', id_paciente);
+INSERT INTO T_TD_IMAGENS (id_imagem, dt_envio, id_paciente) VALUES (id_imagem.nextval, '14112023', id_paciente);
+INSERT INTO T_TD_IMAGENS (id_imagem, dt_envio, id_paciente) VALUES (id_imagem.nextval, '15112023', id_paciente);
+INSERT INTO T_TD_IMAGENS (id_imagem, dt_envio, id_paciente) VALUES (id_imagem.nextval, '16112023', id_paciente);
+INSERT INTO T_TD_IMAGENS (id_imagem, dt_envio, id_paciente) VALUES (id_imagem.nextval, '17112023', id_paciente);
+INSERT INTO T_TD_IMAGENS (id_imagem, dt_envio, id_paciente) VALUES (id_imagem.nextval, '18112023', id_paciente);
+INSERT INTO T_TD_IMAGENS (id_imagem, dt_envio, id_paciente) VALUES (id_imagem.nextval, '19112023', id_paciente);
+INSERT INTO T_TD_IMAGENS (id_imagem, dt_envio, id_paciente) VALUES (id_imagem.nextval, '20112023', id_paciente);
+
+
+INSERT INTO T_TD_ENDERECO_PACIENTE(id_endereco,CEP,nr_logradouro,ds_ponto_referencia,id_paciente) 
+VALUES(seq_endereco_paciente.nextval,'01543001', 1006,'perto do ponto de onibus',id_paciente);
+
+INSERT INTO T_TD_ENDERECO_PACIENTE (id_endereco, CEP, nr_logradouro, ds_ponto_referencia, id_paciente)
+VALUES (seq_endereco_paciente.nextval, '10078901', 567, 'perto do mercado', id_paciente);
+
+INSERT INTO T_TD_ENDERECO_PACIENTE (id_endereco, CEP, nr_logradouro, ds_ponto_referencia, id_paciente)
+VALUES (seq_endereco_paciente.nextval, '02145012', 789, 'perto da farmácia', id_paciente);
+
+INSERT INTO T_TD_ENDERECO_PACIENTE (id_endereco, CEP, nr_logradouro, ds_ponto_referencia, id_paciente)
+VALUES (seq_endereco_paciente.nextval, '03056789', 456, 'perto do supermercado', id_paciente);
+
+INSERT INTO T_TD_ENDERECO_PACIENTE (id_endereco, CEP, nr_logradouro, ds_ponto_referencia, id_paciente)
+VALUES (seq_endereco_paciente.nextval, '04067890', 321, 'perto da escola', id_paciente);
+
+INSERT INTO T_TD_ENDERECO_PACIENTE (id_endereco, CEP, nr_logradouro, ds_ponto_referencia, id_paciente)
+VALUES (seq_endereco_paciente.nextval, '05123456', 789, 'perto da academia', id_paciente);
+
+INSERT INTO T_TD_ENDERECO_PACIENTE (id_endereco, CEP, nr_logradouro, ds_ponto_referencia, id_paciente)
+VALUES (seq_endereco_paciente.nextval, '06034567', 234, 'Perto do hospital', id_paciente);
+
+INSERT INTO T_TD_ENDERECO_PACIENTE (id_endereco, CEP, nr_logradouro, ds_ponto_referencia, id_paciente)
+VALUES (seq_endereco_paciente.nextval, '07045678', 567, 'perto da padaria', id_paciente);
+
+INSERT INTO T_TD_ENDERECO_PACIENTE (id_endereco, CEP, nr_logradouro, ds_ponto_referencia, id_paciente)
+VALUES (seq_endereco_paciente.nextval, '08056789', 890, 'perto do parque', id_paciente);
+
+INSERT INTO T_TD_ENDERECO_PACIENTE (id_endereco, CEP, nr_logradouro, ds_ponto_referencia, id_paciente)
+VALUES (seq_endereco_paciente.nextval, '09067890', 123, 'perto da praça', id_paciente);
+
+
+
+
+    
+
+INSERT INTO t_td_unid_hospitalar (id_unid_hospitalar,razao_social ,nr_logradouro, CEP, dt_cadastro ) values
+ (seq_unid_hospitalar.nextval,'NOTRE DAME INTERMEDICA SAUDE S.A.', 867 ,01311100, '17112023');
+ 
+INSERT INTO t_td_unid_hospitalar (id_unid_hospitalar,razao_social ,nr_logradouro, CEP, dt_cadastro ) values
+ (seq_unid_hospitalar.nextval,'Hospital Santa Clara', 940, 23456789, '17112023');
+ 
+INSERT INTO t_td_unid_hospitalar (id_unid_hospitalar,razao_social ,nr_logradouro, CEP, dt_cadastro ) values
+ (seq_unid_hospitalar.nextval,'Hospital Bom Jesus', 89, 45678901, '17112023');
+ 
+INSERT INTO t_td_unid_hospitalar (id_unid_hospitalar,razao_social ,nr_logradouro, CEP, dt_cadastro ) values
+ (seq_unid_hospitalar.nextval,'Hospital São Francisco', 2300, 56789012, '17112023');
+ 
+INSERT INTO t_td_unid_hospitalar (id_unid_hospitalar,razao_social ,nr_logradouro, CEP, dt_cadastro ) values
+ (seq_unid_hospitalar.nextval,'Hospital Santo Antônio', 753, 67890123, '17112023');
+ 
+INSERT INTO t_td_unid_hospitalar (id_unid_hospitalar,razao_social ,nr_logradouro, CEP, dt_cadastro ) values
+ (seq_unid_hospitalar.nextval, 'Hospital Nossa Esperança', 230, 78901234,'17112023');
+ 
+INSERT INTO t_td_unid_hospitalar (id_unid_hospitalar,razao_social ,nr_logradouro, CEP, dt_cadastro ) values
+ (seq_unid_hospitalar.nextval,'Hospital Vida Plena', 1060, 89012345, '17112023');
+ 
+INSERT INTO t_td_unid_hospitalar (id_unid_hospitalar,razao_social ,nr_logradouro, CEP, dt_cadastro ) values
+ (seq_unid_hospitalar.nextval,'Hospital Luz Divina', 100, 90123456, '17112023');
+ 
+INSERT INTO t_td_unid_hospitalar (id_unid_hospitalar,razao_social ,nr_logradouro, CEP, dt_cadastro ) values
+ (seq_unid_hospitalar.nextval,'Hospital Esperança', 1400, 23456780, '17112023');
+ 
+INSERT INTO t_td_unid_hospitalar (id_unid_hospitalar,razao_social ,nr_logradouro, CEP, dt_cadastro ) values
+ (seq_unid_hospitalar.nextval,'Hospital Cura Total', 320, 12345670, '17112023') ;
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO T_TD_TELEFONE_PACIENTE (id_telefone,nr_ddi,nr_ddd,nr_telefone,tp_telefone,id_paciente) VALUES
+(seq_telefone_paciente.nextval,55, 11, 944642004,'celular', id_paciente);
+
+INSERT INTO T_TD_TELEFONE_PACIENTE (id_telefone,nr_ddi,nr_ddd,nr_telefone,tp_telefone,id_paciente) VALUES
+(seq_telefone_paciente.nextval,55, 11, 12345678, 'fixo',id_paciente);
+
+INSERT INTO T_TD_TELEFONE_PACIENTE (id_telefone,nr_ddi,nr_ddd,nr_telefone,tp_telefone,id_paciente) VALUES
+(seq_telefone_paciente.nextval,55, 11, 987654321, 'celular' ,id_paciente);
+
+INSERT INTO T_TD_TELEFONE_PACIENTE (id_telefone,nr_ddi,nr_ddd,nr_telefone,tp_telefone,id_paciente) VALUES
+(seq_telefone_paciente.nextval,55, 11, 58877665, 'fixo',id_paciente);
+
+INSERT INTO T_TD_TELEFONE_PACIENTE (id_telefone,nr_ddi,nr_ddd,nr_telefone,tp_telefone,id_paciente) VALUES
+(seq_telefone_paciente.nextval, 55, 11, 911223344, 'celular',id_paciente);
+
+INSERT INTO T_TD_TELEFONE_PACIENTE (id_telefone,nr_ddi,nr_ddd,nr_telefone,tp_telefone,id_paciente) VALUES
+(seq_telefone_paciente.nextval, 55, 11, 36543218, 'fixo',id_paciente);
+
+INSERT INTO T_TD_TELEFONE_PACIENTE (id_telefone,nr_ddi,nr_ddd,nr_telefone,tp_telefone,id_paciente) VALUES
+(seq_telefone_paciente.nextval, 55, 11, 900112233, 'celular',id_paciente);
+
+INSERT INTO T_TD_TELEFONE_PACIENTE (id_telefone,nr_ddi,nr_ddd,nr_telefone,tp_telefone,id_paciente) VALUES
+(seq_telefone_paciente.nextval, 55, 11, 55557777, 'fixo', id_paciente);
+
+INSERT INTO T_TD_TELEFONE_PACIENTE (id_telefone,nr_ddi,nr_ddd,nr_telefone,tp_telefone,id_paciente) VALUES
+(seq_telefone_paciente.nextval, 55, 11, 933344455, 'celular', id_paciente);
+
+INSERT INTO T_TD_TELEFONE_PACIENTE (id_telefone,nr_ddi,nr_ddd,nr_telefone,tp_telefone,id_paciente) VALUES
+(seq_telefone_paciente.nextval,55, 11, 77788899, 'fixo',id_paciente);
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
