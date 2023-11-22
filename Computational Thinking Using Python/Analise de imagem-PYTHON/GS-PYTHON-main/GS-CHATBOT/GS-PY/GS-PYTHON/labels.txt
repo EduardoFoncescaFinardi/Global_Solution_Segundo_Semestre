@@ -1,0 +1,4 @@
+0  Dermatite Alta
+1  Dermatite Mediana
+2  Dermartite Baixa
+3  Sem Dermatite 

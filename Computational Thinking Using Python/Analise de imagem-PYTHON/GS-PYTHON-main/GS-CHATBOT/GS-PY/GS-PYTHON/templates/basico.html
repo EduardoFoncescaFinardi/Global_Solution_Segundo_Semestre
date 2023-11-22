@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio de Imagens - Dermatite Atópica</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Envio de Imagens - Dermatite Atópica</h1>
+    <p>Envie-nos uma imagem para que possamos entregar o melhor prognóstico!</p>
+    </header>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Enviar" class="center-button">
+    </form>
+    {% if encoded_image %}
+        <section class="center-results">
+            <h2>Imagem Enviada:</h2>
+            <img src="data:image/jpeg;base64,{{ encoded_image }}" alt="Imagem Enviada" class="center-image">
+            {% if predicted_class and confidence_score %}
+                <p>Nivel: {{ predicted_class }}</p>
+                <p>Pontuação de Confiança: {{ confidence_score }}%</p>
+            {% endif %}
+        </section>
+    {% endif %}
+</body>
+</html>
