@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47A11B6E-7D4F-8812-19F7-CBAFBF982A23" name="T_TD_IMAGENS">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 20:27:02 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_imagem" id="FE1EF95B-44AC-A3B0-50B1-A1AE31E473D1">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 20:32:12 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_envio" id="60B09CA6-C7F6-F6F7-1B53-EBDC898CF52D">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 20:32:12 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="3236FBE6-B59A-0EFD-AAEF-257696397612">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 20:34:23 UTC</createdTime>
+<generatorID>AB46AB69-B542-500A-130F-4F94E389C9E2</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<referedAttribute>C5664E90-FF36-E1A9-89AC-9FA422572891</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="link_url" id="04AC1BA9-034F-D5F6-70C1-545DD4D61DC8">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-17 20:58:22 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="418A476C-F7EB-5585-3ABB-7E25A9EC10F4" name="T_TD_IMAGENS PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 20:32:21 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE1EF95B-44AC-A3B0-50B1-A1AE31E473D1</attributeRef>
+<attributeRef>3236FBE6-B59A-0EFD-AAEF-257696397612</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

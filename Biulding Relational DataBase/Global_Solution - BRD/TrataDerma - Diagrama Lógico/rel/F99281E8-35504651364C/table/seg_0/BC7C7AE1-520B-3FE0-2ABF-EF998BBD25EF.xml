@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC7C7AE1-520B-3FE0-2ABF-EF998BBD25EF" name="T_TD_TELEFONE_PACIENTE">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>3E5573B9-71CA-17E0-5227-93E6A6FCD6D4</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_telefone" id="EC207FAB-1DBE-1C0F-F1D5-7B901D41D7F2">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>426FD27C-260D-E165-BA16-AE95E7473439</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ddi" id="8B96C5DD-E56A-7F84-4429-9CE5A3E446D6">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>25D4B8CA-9587-8D6B-226A-AC37F0A2382E</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ddd" id="F46B97F2-CC3D-6BA8-7FF1-BEB61B3A9306">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>68943B94-0C6F-18FA-5FAE-D20DD9878EBB</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="17FAD9D3-EB71-7159-3286-53EA312ABA58">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>A921240B-3E29-C13D-E3B6-E8FDC0883783</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_telefone" id="21CFB8CC-5CC6-BAAE-CA56-079A4CE3A563">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>BDC14050-D7A9-2FE3-91C1-0FE6352E63D6</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_telefone" id="59A15FA8-87CC-28A9-A5CD-2906883C7C18">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>C51F4618-7608-F732-4113-D610634D3DB1</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TD_PACIENTEv1_id_paciente" id="F2B45466-6FB8-4CEF-CEF7-50D259F2A091">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>090FEE00-707B-E167-5264-30B8188C1E68</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F917591-E046-BCB9-BC4C-4A41E1F71393" referredColumn="E3248129-FE50-859D-6FCE-F886D5A8DAFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08D53CEA-3A22-DEC2-8E13-ACEC7C22623D" name="T_TD_TELEFONE_PACIENTE_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>35C9D870-6959-5030-C855-A2EF99093F94</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC207FAB-1DBE-1C0F-F1D5-7B901D41D7F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEB08D48-A46C-5DC0-20AF-9D03A6EA735B" name="T_TD_TELEFONE_PACIENTE_T_TD_PACIENTEv1_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>FF547D9E-B204-85A0-1687-CEFA2F4DC721</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2B45466-6FB8-4CEF-CEF7-50D259F2A091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="538E4C4A-22B1-0D4C-4C0E-BC717F5A1AB8">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:03:27 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7677960-3B67-2BF7-08A7-25B55888FABA" name="T_TD_ENDERECO_PACIENTE">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>A2A1532B-C88D-DCF0-3737-313AB224665F</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="0AE1B8C9-C23F-61C3-A333-7036D44B8B69">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>9EC59A01-A05E-2901-8F0D-9E51542308B4</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_logradouro" id="18C3783F-05B9-8C25-9B6E-144D5C14AFED">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>57A8D452-38E0-BEA1-60A9-21CCCD77636A</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento_numero" id="A0810BA1-6D0E-B58A-F8B5-CFE90C1DE4D0">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>1F9FC3E4-72AC-E402-4E1D-9E116A1E43DB</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_ponto_referencia" id="275335DF-D0E4-1965-F289-08C20F4FD730">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>90E965C3-70BE-AB03-B7BD-FB88D114E640</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_ponto_referencia_1" id="CFD800AB-9A3B-3A93-04EF-FD24382A64A4">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>6F56D40F-1A2F-93CB-3272-6FEEF7BB06DE</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="D1EF01CB-AD72-9823-5B55-5E89CE42CC4E">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>13C82622-91C6-B1F4-62EA-BD529586949F</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim" id="837E7223-099A-A860-DD7E-B64910AA8B17">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>6D1D8885-B3D0-8D2A-7473-4391701A0EB2</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TD_PACIENTEv1_id_paciente" id="302DB7DC-BB62-D33C-495A-7037E1D393E3">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>F7D2954A-8A33-7D52-3ABE-7B63AD2EE8A6</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6DBEF8F-20B2-80BF-6B54-B27AE0941072" referredColumn="E3248129-FE50-859D-6FCE-F886D5A8DAFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="892DB887-0363-3406-DA03-C6854F1DFD88" name="T_TD_ENDERECO_PACIENTE_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>A70D4EA1-8F09-39ED-F939-40CAF33CDFF9</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AE1B8C9-C23F-61C3-A333-7036D44B8B69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="429DC7E2-811B-1C6C-C5D4-479AD8EA95FD" name="T_TD_ENDERECO_PACIENTE_T_TD_PACIENTEv1_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>318281B7-C1AE-A81B-CB0B-12649961AD65</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="302DB7DC-BB62-D33C-495A-7037E1D393E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

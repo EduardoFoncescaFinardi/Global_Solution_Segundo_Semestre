@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8542B115-3AAA-723F-C56F-EA7D9761DDFA" name="T_TD_MEDICO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>F26EDE51-5AD1-4946-360A-4F1B330FDBF0</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medico" id="E3F4DF0D-ADDF-4B7F-66A0-BA5DE7DE12E3">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>CBBB1CDD-AFDD-DD83-00A8-3638A2C5F7C1</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_medico" id="54E01DFF-9987-CE69-88D6-6C1CD9340FF3">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>628EA7D9-72D9-EB6D-49A1-2AE2B6EA7B1A</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fl_sexo" id="16A86B38-C957-A7D2-4449-845DE1B20FEF">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>8BFAA7D7-538B-7C09-907C-E4500495E038</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_especializacao" id="55C73F4C-81C6-D936-03EB-4EC2F38E4843">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>BFFE676F-A28F-5E99-D3E9-9D92EE3EFB78</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="77F92DAA-AF4C-4E47-CD5A-65ECBDC75478">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>1779DF5C-530F-22E6-4396-8FEA3B1CB7C5</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_6" id="C1778C92-F11C-6F3A-FAB6-ADA125CDDBB2">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>C14EE64F-9628-B701-BF8B-E7BC025180C5</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE372E3D-F23D-5579-2C2C-D3532BF09276" name="T_TD_MEDICO_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>B308C39E-3F9C-A0F4-7FD2-6896BC5D435F</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3F4DF0D-ADDF-4B7F-66A0-BA5DE7DE12E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

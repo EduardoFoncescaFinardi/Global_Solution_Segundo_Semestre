@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2A1532B-C88D-DCF0-3737-313AB224665F" name="T_TD_ENDERECO_PACIENTE">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:29:17 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="9EC59A01-A05E-2901-8F0D-9E51542308B4">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:29:43 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="57A8D452-38E0-BEA1-60A9-21CCCD77636A">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:29:43 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="1F9FC3E4-72AC-E402-4E1D-9E116A1E43DB">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:29:43 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ponto_referencia" id="90E965C3-70BE-AB03-B7BD-FB88D114E640">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:29:44 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="F7D2954A-8A33-7D52-3ABE-7B63AD2EE8A6">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:32:35 UTC</createdTime>
+<generatorID>318281B7-C1AE-A81B-CB0B-12649961AD65</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<referedAttribute>C5664E90-FF36-E1A9-89AC-9FA422572891</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A70D4EA1-8F09-39ED-F939-40CAF33CDFF9" name="T_TD_ENDERECO_PACIENTE PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:30:54 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EC59A01-A05E-2901-8F0D-9E51542308B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

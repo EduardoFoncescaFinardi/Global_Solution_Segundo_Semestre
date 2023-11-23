@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E894B5F-A137-F0B1-23A1-2D4042BBF32A" name="T_TD_CONSULTA">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:18:17 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_consulta" id="E271A059-C893-B2BB-2DE1-983C19F0CA80">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:18:34 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hr_consulta" id="A40DFB58-2E91-EA2D-5FE3-7FB017B25E4E">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:18:34 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_central" id="BA5F648D-8C74-E93B-1A84-CBBFA1C55FC1">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:22:14 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="61B93359-F233-B4A8-8023-A48B46C0E8BB">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:22:46 UTC</createdTime>
+<generatorID>B9E095F2-2918-449B-FE33-666DF2047D8D</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<referedAttribute>C5664E90-FF36-E1A9-89AC-9FA422572891</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_unid_hospitalar" id="89245468-C5A8-3402-9BCD-DE9A7075B7B3">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:28:33 UTC</createdTime>
+<generatorID>AD5A6379-A0C0-8071-DE8B-D665BA88AC74</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<referedAttribute>79FE3BD7-91E3-D86D-72D6-1D1A98728080</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE1D2764-95A6-1212-E923-F52740A42D19" name="T_TD_CONSULTA PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:18:47 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E271A059-C893-B2BB-2DE1-983C19F0CA80</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

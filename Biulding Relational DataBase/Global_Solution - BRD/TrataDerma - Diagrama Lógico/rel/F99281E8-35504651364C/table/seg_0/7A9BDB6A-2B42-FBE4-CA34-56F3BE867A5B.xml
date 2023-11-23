@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A9BDB6A-2B42-FBE4-CA34-56F3BE867A5B" name="T_TD_QUADRO_CLINICO">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>FB5DEE59-074F-CA8A-85D3-305CA82FBBAA</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_quadro_clinico" id="13EC1DD2-DBF5-78E3-379B-13DEC60DD762">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>657C6F67-2C5F-F218-6797-8FB4FCCB31B0</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_alergias" id="0EF5861B-9ACB-18D1-9FCB-F64C0F8C4643">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>54BDCB6B-13FB-2409-CF2E-D668EDD3BAE8</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TD_PACIENTEv1_id_paciente" id="D589D06F-55AB-5C92-4A56-3354C7ABDCD4">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>B1668F32-04C9-E88D-DEA2-DF786D01ABEA</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC189883-0930-192F-8768-657546178BFF" referredColumn="E3248129-FE50-859D-6FCE-F886D5A8DAFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69EED0DE-2E40-58F1-677C-E15570387461" name="T_TD_QUADRO_CLINICO_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>DB503095-F6FC-3295-232A-A3948D25ABD6</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13EC1DD2-DBF5-78E3-379B-13DEC60DD762"/>
+<colUsage columnID="D589D06F-55AB-5C92-4A56-3354C7ABDCD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58B68CB5-B1D9-23DE-92EF-3A9F8CD844B9" name="T_TD_QUADRO_CLINICO_T_TD_PACIENTEv1_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>1E1A0AD5-917B-7F81-23F9-395118737570</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D589D06F-55AB-5C92-4A56-3354C7ABDCD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

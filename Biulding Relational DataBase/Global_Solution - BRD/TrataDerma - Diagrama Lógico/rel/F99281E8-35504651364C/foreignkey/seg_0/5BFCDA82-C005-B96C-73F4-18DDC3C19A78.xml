@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5BFCDA82-C005-B96C-73F4-18DDC3C19A78" containerWithKeyObject="7C4D80B5-7A06-3DE8-E0BD-2E492BDFDE5D" localFKIndex="375D859B-A683-639C-C151-D78319B27958" name="T_TD_CONSULTA_T_TD_UNID_HOSPITALAR_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>AD5A6379-A0C0-8071-DE8B-D665BA88AC74</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<referredTableLongName>T_TD_UNID_HOSPITALAR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>730F6B1F-62ED-02EA-7F71-E86511CF9152</referredTableID>
+<keyObject>CD491F9C-AB16-8557-6678-3F1374A745A8</keyObject>
+<referredKeyID>CD491F9C-AB16-8557-6678-3F1374A745A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_unid_hospitalar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

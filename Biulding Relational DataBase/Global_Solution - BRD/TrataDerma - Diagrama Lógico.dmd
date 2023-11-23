@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TrataDerma - Diagrama Lógico" id="23F3940A-E38D-E529-7025-60F7FA77DAA0" version="3.5">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:03:27 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>23F3940A-E38D-E529-7025-60F7FA77DAA0</designId>
+</OSDM_Design>

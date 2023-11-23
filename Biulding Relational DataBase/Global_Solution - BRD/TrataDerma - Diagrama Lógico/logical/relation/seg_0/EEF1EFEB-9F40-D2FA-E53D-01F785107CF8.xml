@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="EEF1EFEB-9F40-D2FA-E53D-01F785107CF8">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 20:14:37 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<engineerTo>
+<item key="F99281E8-08FC-CD84-299A-35504651364C" value="true"/>
+</engineerTo>
+<sourcePk>3E32B652-6DA0-673E-8A7E-E41E9609D1DF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA8933A9-7A23-7C25-516E-2B2A25A87996</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C522A2EC-4E89-C2F9-890B-8CD40344B2BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

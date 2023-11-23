@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="20F8D27D-478B-029E-8A5E-BC308BA778DE" containerWithKeyObject="9FCAF8E3-E3E3-B9A7-98F6-30E2EA750E94" localFKIndex="352B1E61-4C69-3095-FC8A-CB250A921192" name="Relation_8_T_TD_CONSULTA_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>B3F3E02F-36D5-3687-2E3E-34972B69E927</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<referredTableLongName>T_TD_CONSULTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C4D80B5-7A06-3DE8-E0BD-2E492BDFDE5D</referredTableID>
+<keyObject>7E7428C9-6A78-D400-95DC-549FD6CA028C</keyObject>
+<referredKeyID>7E7428C9-6A78-D400-95DC-549FD6CA028C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_consulta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

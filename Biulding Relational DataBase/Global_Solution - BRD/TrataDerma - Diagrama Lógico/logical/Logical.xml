@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F48E822D-5ABB-A1D0-9D0A-E8320391375C" mainViewID="36B8CE08-8E3E-BB49-AA83-E98E39444B3A">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-15 19:03:27 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

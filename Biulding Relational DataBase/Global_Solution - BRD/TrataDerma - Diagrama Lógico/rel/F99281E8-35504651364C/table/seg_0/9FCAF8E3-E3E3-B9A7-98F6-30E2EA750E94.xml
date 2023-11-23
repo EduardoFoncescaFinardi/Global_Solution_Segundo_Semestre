@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FCAF8E3-E3E3-B9A7-98F6-30E2EA750E94" name="Relation_8">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_TD_QUADRO_CLINICO_id_quadro_clinico" id="D6660196-D844-58A5-B200-92E7DCA7ECF6">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9314E4E7-A5A7-7842-B8CF-F887BBA6D451" referredColumn="13EC1DD2-DBF5-78E3-379B-13DEC60DD762"/>
+</associations>
+</Column>
+<Column name="T_TD_QUADRO_CLINICO_T_TD_PACIENTEv1_id_paciente" id="2CA6CBB2-08B7-F9F7-3FFD-2F1659DF77C8">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9314E4E7-A5A7-7842-B8CF-F887BBA6D451" referredColumn="D589D06F-55AB-5C92-4A56-3354C7ABDCD4"/>
+</associations>
+</Column>
+<Column name="T_TD_CONSULTA_id_consulta" id="6899EFEF-2DC7-E3E9-51FB-C35B30E16C97">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20F8D27D-478B-029E-8A5E-BC308BA778DE" referredColumn="89A0C948-86D7-0B96-F61E-BA42386DC521"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8590C350-B1DE-C9E2-DE63-E4D2A367A65C" name="Relation_8_PK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6660196-D844-58A5-B200-92E7DCA7ECF6"/>
+<colUsage columnID="2CA6CBB2-08B7-F9F7-3FFD-2F1659DF77C8"/>
+<colUsage columnID="6899EFEF-2DC7-E3E9-51FB-C35B30E16C97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05966912-EF35-24D5-75F8-B29050F3815B" name="Relation_8_T_TD_QUADRO_CLINICO_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>B3F3E02F-36D5-3687-2E3E-34972B69E927</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6660196-D844-58A5-B200-92E7DCA7ECF6"/>
+<colUsage columnID="2CA6CBB2-08B7-F9F7-3FFD-2F1659DF77C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="352B1E61-4C69-3095-FC8A-CB250A921192" name="Relation_8_T_TD_CONSULTA_FK">
+<createdBy>Eduardo</createdBy>
+<createdTime>2023-11-16 12:43:49 UTC</createdTime>
+<generatorID>B3F3E02F-36D5-3687-2E3E-34972B69E927</generatorID>
+<ownerDesignName>TrataDerma - Diagrama Lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6899EFEF-2DC7-E3E9-51FB-C35B30E16C97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
